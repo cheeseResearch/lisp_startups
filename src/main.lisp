@@ -18,7 +18,7 @@
 (defclass company ()
     ((name :accessor company-name
               :initarg :name
-              :type real
+              :type string
               :documentation "The name of the company")
      (card-quantity  :accessor company-card-quantity
                 :initarg :card-quantity
